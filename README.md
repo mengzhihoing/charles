@@ -1,5 +1,5 @@
 # charles 终端执行：  
-<pre>
+<text>
 charles=/Applications/Charles.app/Contents/Java/charles.jar
 dir=charleshack
 mkdir $dir
@@ -14,4 +14,4 @@ public final class License {
 EOF
 javac -encoding UTF-8 License.java -d .&& jar -uvf $charles com/xk72/charles/License.class
 cd .. && rm -rf $dir
-</pre>
+</text>
